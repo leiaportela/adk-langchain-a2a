@@ -1,4 +1,4 @@
-# Workshop ADK 2 — Triage Coordinator + LangChain A2A Specialist
+# ADK Triage Coordinator + LangChain A2A Specialist
 
 A two-agent demo on Google Cloud (Agent Engine):
 
