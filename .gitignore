@@ -1,0 +1,16 @@
+# Local environment files with project-specific values — keep these out of git.
+# Commit the .env.example templates instead.
+.env
+**/.env
+
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+
+# adk deploy staging dirs (created and normally auto-removed during `adk deploy`)
+agent_tmp*/
+
+# Deploy state (engine id captured at deploy time; environment-specific)
+.deploy_state

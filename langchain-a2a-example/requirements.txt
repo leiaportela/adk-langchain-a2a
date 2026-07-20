@@ -1,0 +1,8 @@
+google-cloud-aiplatform[agent_engines]>=1.159.0
+a2a-sdk[http-server]>=0.3.4,<0.4
+langchain>=1.0.0
+langchain-google-vertexai>=2.0.0
+# Pin opentelemetry to a version that still ships `_events` (removed in 1.44),
+# which the Agent Engine runtime harness imports. Newer deps otherwise pull 1.44+.
+opentelemetry-api==1.37.0
+opentelemetry-sdk==1.37.0

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "on_message_send",
+    "description": "Handles A2A message/send requests.",
+    "parameters": {"type": "object", "properties": {}},
+    "api_mode": "a2a_extension"
+  },
+  {
+    "name": "on_get_task",
+    "description": "Handles A2A task status polling.",
+    "parameters": {"type": "object", "properties": {}},
+    "api_mode": "a2a_extension"
+  },
+  {
+    "name": "on_cancel_task",
+    "description": "Handles A2A task cancellation.",
+    "parameters": {"type": "object", "properties": {}},
+    "api_mode": "a2a_extension"
+  },
+  {
+    "name": "handle_authenticated_agent_card",
+    "description": "Serves the authenticated agent card.",
+    "parameters": {"type": "object", "properties": {}},
+    "api_mode": "a2a_extension"
+  }
+]
